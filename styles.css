@@ -1,0 +1,115 @@
+
+
+*   {
+    margin: 0;
+    padding: 0;
+    }
+body { 
+    background: #8cb9bd;
+    margin: auto;
+    padding: 1rem;
+    color: #2f5881;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    }
+.wrapper {
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: white;
+    margin: auto;
+    border-width: .25rem;
+    border-style: solid;
+    width: 1200px; 
+    line-height: 1.6;
+    }
+.box {
+    display: flex;
+    margin: .5rem;
+    gap: 3rem;
+    padding-top: 0.5rem;
+    }
+header {    
+    text-align: center;
+    }
+h1 { 
+    font-family: "Lora", system-ui;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 5rem;
+    text-shadow: #6d6444 1px 1px 3px;
+    }
+h2 { 
+    font-family: "Lora", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    margin: .5rem;
+    font-size: 36px;
+    text-align: center;
+    color: #eb8959;
+    }
+h3 { 
+    font-family: "Poppins", system-ui;
+    font-style: normal;
+    color: #eb8959;
+    font-size: 36px;
+    font-weight: 600;
+    }
+h4 { 
+    font-family: "Lora", system-ui;
+    font-style: normal;
+    color: #eb8959;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 2rem;
+    }
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding: 4rem;
+    text-decoration: none;
+    font-family: "Poppins", system-ui;
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    }
+nav li:hover a {
+    color:#eb8959;
+    }
+nav > ul{
+    margin: 19px;
+    }
+footer {
+    padding: 1rem;
+    font-family: "Lora", system-ui;
+    font-weight: normal;
+    font-style: normal;
+    text-align-last: left;
+    }
+.left {
+    width: 600px;
+    height:50px;
+    margin: 10px;
+    text-align: left;
+    font-size: 18px;
+    padding-top: 6.5rem; 
+    font-weight: 450;
+    } 
+.right {
+    width: 800px;
+    margin: 10px;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 1rem; 
+    } 
+footer {
+    text-align-last: center;
+    font-family: "Lora", system-ui;
+    font-size: 20px;
+    font-weight: 500;
+    }
+.contact {
+    text-align: center;
+    padding-top: 4rem;
+    }
