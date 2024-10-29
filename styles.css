@@ -1,5 +1,7 @@
 
 
+
+
 *   {
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@ body {
     background: #8cb9bd;
     margin: auto;
     padding: 1rem;
-    color: #2f5881;
+    color: #1d4873;
     font-family: "Poppins", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -32,12 +34,13 @@ body {
 header {    
     text-align: center;
     }
+
 h1 { 
     font-family: "Lora", system-ui;
     font-weight: bold;
     font-style: normal;
     font-size: 5rem;
-    text-shadow: #6d6444 1px 1px 3px;
+    text-shadow: #000000 1px 1px 1px;
     }
 h2 { 
     font-family: "Lora", system-ui;
@@ -46,7 +49,8 @@ h2 {
     margin: .5rem;
     font-size: 36px;
     text-align: center;
-    color: #eb8959;
+    color: rgb(170, 99, 27);
+    text-shadow: #000000 1px 1px 1px;
     }
 h3 { 
     font-family: "Poppins", system-ui;
@@ -75,7 +79,7 @@ nav li {
     text-align: center;
     }
 nav li:hover a {
-    color:#eb8959;
+    color: #eb8959;
     }
 nav > ul{
     margin: 19px;
@@ -89,7 +93,7 @@ footer {
     }
 .left {
     width: 600px;
-    height:50px;
+    height:10px;
     margin: 10px;
     text-align: left;
     font-size: 18px;
@@ -102,6 +106,7 @@ footer {
     text-align: left;
     font-size: 16px;
     padding-top: 1rem; 
+    
     } 
 footer {
     text-align-last: center;
