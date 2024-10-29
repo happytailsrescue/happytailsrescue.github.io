@@ -11,7 +11,7 @@ body {
     color: #000000;
     font-family: "Poppins", system-ui;
     font-weight: 500;
-    font-style: normal;
+    font-style: bold;
     }
 .wrapper {
     box-sizing: border-box;
@@ -38,7 +38,6 @@ h1 {
     font-weight: bold;
     font-style: normal;
     font-size: 5rem;
-    text-shadow: #000000 1px 1px 1px;
     }
 h2 { 
     font-family: "Lora", system-ui;
@@ -48,7 +47,6 @@ h2 {
     font-size: 36px;
     text-align: center;
     color: rgb(170, 99, 27);
-    text-shadow: #000000 1px 1px 1px;
     }
 h3 { 
     font-family: "Poppins", system-ui;
