@@ -11,7 +11,6 @@ body {
     color: #000000;
     font-family: "Poppins", system-ui;
     font-weight: 500;
-    font-style: bold;
     }
 .wrapper {
     box-sizing: border-box;
@@ -25,14 +24,20 @@ body {
     }
 .box {
     display: flex;
-    margin: .5rem;
-    gap: 3rem;
-    padding-top: 0.5rem;
+    margin: 2rem;
+    background-color: #505A61;
+    font-family: "Lora", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+    }
+.box1 {
+    display: flex;
+    margin: 2rem;
     }
 header {    
     text-align: center;
     }
-
 h1 { 
     font-family: "Lora", system-ui;
     font-weight: bold;
@@ -50,7 +55,6 @@ h2 {
     font-size: 36px;
     text-align: center;
     color: #794F31;
-    
     }
 h3 { 
     font-family: "Poppins", system-ui;
@@ -69,6 +73,11 @@ h4 {
     font-weight: 600;
     text-align: center;
     padding-top: 2rem;
+    }
+.center {
+    position: absolute;
+  align-content: center;
+    padding-left: 25px;
     }
 nav li {
     display: inline;
@@ -92,37 +101,127 @@ nav a:visited {
 nav > ul{
     margin: 19px;
     }
+p   {
+    text-align: center;
+    }
 footer {
     padding: 1rem;
     font-family: "Lora", system-ui;
     font-weight: normal;
     font-style: normal;
-    text-align-last: left;
     }
-.left {
-    width: 600px;
-    height:10px;
-    margin: 10px;
+.left   {
+    width: 800px;
     text-align: left;
-    font-size: 17px;
-    padding-top: 2.5rem; 
+    font-size: 16px; 
     font-weight: 600;
+    margin-top: 6rem;;
     } 
 .right {
     width: 800px;
-    margin: 10px;
+    margin: 25px;
     text-align: left;
     font-size: 16px;
-    padding-top: 1rem; 
-    
     } 
 footer {
     text-align-last: center;
     font-family: "Lora", system-ui;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     }
 .contact {
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 1rem;
+    border: 0;
+    }
+fieldset {
+    padding: 26px;
+    text-shadow: 2px 2px 5px black;
+    font-family: "Lora", system-ui;
+    font-size: 17px;
+    font-weight: 600;
+    background: transparent;
+    padding-left: 46px;
+    color: white;
+    width: 85%;
+    border-style: none;
+    } 
+.contactForm {
+    display: flex;
+    }
+input#submit { 
+    background-color: #ffffff;
+    font-family: "Lora", system-ui;
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px 10px;
+    font-weight: bold;
+    }
+input#submit:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    }
+input#email, input#phone {
+    width: 80%;
+    padding: 12px 5px;
+    margin: 10px 0;
+    border-radius: 10px;}
+input#reset {
+    background-color: #ffffff;
+    font-family: "Lora", system-ui;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px 10px;
+    }
+input#reset:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    }
+input[type=text] {
+    resize: vertical;
+    width: 85%;
+    padding: 15px 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    }
+.error {
+    color: red;
+    font-style: italic;
+    margin-left: 15px;
+    }
+table {
+    width: 500px;
+    font-family: "Lora", system-ui;
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 8rem;
+    background-color: transparent;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    }
+td {
+    height: 75px;
+    width: 100px;
+    margin: auto;
+    text-align: center;} 
+th {
+    text-align: center;
+    font-family: "Poppins", system-ui;
+    font-size: 23px;
+    font-weight: bold;
+    border-bottom: solid}
+.address {
+    text-align: center;
+    padding: 1rem;
+    font-family: "Poppins", system-ui;
+    font-size: 17px;
     }
